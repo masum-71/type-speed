@@ -35,7 +35,7 @@ body {
 }
 
 #display {
-  height: 100px;
+  min-height: 100px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -196,8 +196,8 @@ button {
     flex-direction: column;
   } */
   #histories {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
